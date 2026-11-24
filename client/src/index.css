@@ -1,0 +1,7 @@
+/* import tailwind css v4 core styles */
+@import "tailwindcss";
+
+/* enable smooth scrolling for anchor navigation links */
+html {
+  scroll-behavior: smooth;
+}

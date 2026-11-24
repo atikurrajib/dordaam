@@ -1,0 +1,30 @@
+# environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# compiled go binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+main
+tmp/
+
+# test binary and coverage output
+*.test
+*.out
+coverage.txt
+
+# go workspace and vendor directories
+go.work
+go.work.sum
+vendor/
+
+# os and ide metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
